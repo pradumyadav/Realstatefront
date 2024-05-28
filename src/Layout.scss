@@ -10,6 +10,8 @@
         margin-right: auto;
         padding-left:10px ;
         padding-top: 10px;
+        display: flex;
+        flex-direction: column;
 
         @include lg{
             max-width: 1288px
@@ -22,4 +24,8 @@
         @include sm{
             max-width: 640px;
         };
+
+        .content{
+            flex:1 ;
+        }
     }
