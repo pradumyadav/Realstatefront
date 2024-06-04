@@ -35,7 +35,7 @@ export default function HomePage (){
            </div>
 
            <div className="imgContainer">
-            <img src={img} alt="Image"></img>
+            <img src={img} alt=""></img>
            </div>
         </div>
     )

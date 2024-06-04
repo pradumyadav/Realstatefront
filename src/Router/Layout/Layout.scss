@@ -1,0 +1,36 @@
+@import "../../Responsive.scss";
+
+.layout {
+    background-color: rgb(252, 251, 251);
+    height: 100vh;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @include lg {
+        max-width: 1288px
+    }
+
+    ;
+
+    @include md {
+        max-width: 768px;
+    }
+
+    ;
+
+    @include sm {
+        max-width: 640px;
+    }
+
+    ;
+
+    .content {
+        flex:1;
+         overflow-y: auto; /* Enable vertical scrolling */
+    }
+}
