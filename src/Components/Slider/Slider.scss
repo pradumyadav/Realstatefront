@@ -6,7 +6,7 @@
     position: relative;
 
     .fullSlider {
-        position: fixed; /* Change to fixed for full screen */
+        position: absolute;
         width: 100vw;
         height: 100vh;
         top: 0;
@@ -15,7 +15,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        z-index: 1000; /* Ensure it's on top of other elements */
+        z-index: 1000; 
 
         .arrow {
             flex: 1;
@@ -24,7 +24,7 @@
             justify-content: center;
 
             img {
-                width: 50px;
+                width: 50px; 
 
                 &.right {
                     transform: rotate(180deg);
@@ -41,6 +41,7 @@
             img {
                 max-width: 100%;
                 max-height: 100%;
+                    object-fit: cover;
             }
         }
 
@@ -54,7 +55,7 @@
             padding: 50px;
             cursor: pointer;
         }
-    }
+     }
 
     img {
         width: 100%;

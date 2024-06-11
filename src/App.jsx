@@ -20,7 +20,7 @@ export default function App (){
             element :<Layout/>,
             children:[
                 {
-                    path:"/",
+                    path:"/", 
                     element:<HomePage/>
                 },
                 {

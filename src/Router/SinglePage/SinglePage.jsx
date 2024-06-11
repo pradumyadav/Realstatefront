@@ -8,7 +8,7 @@ export default function SinglePage() {
         <div className="SinglePage">
             <div className="details">
                 <div className="wrapper">
-                    <Slider images={singlePostData.images} />
+                    {/* <Slider images={singlePostData.images} /> */}
                     <div className="info">
                         <div className="top">
                             <div className="post">
